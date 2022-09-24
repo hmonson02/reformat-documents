@@ -120,7 +120,6 @@ def mainFunc(filename, directory, sheetname, newfilename):
             sheet.cell(row=i, column = 16).value=val
             
         
-    workbook.save(newfilename)
         
         
 
